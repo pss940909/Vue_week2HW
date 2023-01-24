@@ -29,7 +29,7 @@ const app = {
         })
         .catch((err) => {
           console.log(err);
-          window.location = ".././sign_in.html";
+          window.location = ".././index.html";
           alert("驗證失敗,請重新登入");
         });
     },
